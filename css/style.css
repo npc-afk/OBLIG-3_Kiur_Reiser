@@ -209,35 +209,17 @@ body {
 
   
 
-  
-
-
-
-
-
-
-
 /* ikke slett den under*/
 /*Den her er for fjerne border så siden ser litt bedre ut*/
 input{
     border: none;
 }
 
-
-
-
-
-
 /* ikke slett den under*/
 /*Brukt i header*/
 #search-bar{
     border-left: 5px solid #000;
 }
-
-
-
-
-
 
 /* ikke slett den under*/
 /*Den her er for header specs: layout, størrelse, plassering*/
