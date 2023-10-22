@@ -202,8 +202,9 @@ body {
     font-weight: 100;
     margin: 0;
     border: 0.5px solid #000;
-    /*brukte OpenAI (ChatGPT) for å finne ut hvilken element var til skygger*/
     box-shadow: 4px 4px 4px #3f3f3f;
+    /*Brukte OpenAi til å finne elementet til skyggelegging*/
+    /*https://chat.openai.com/c/d150a2d7-fffc-4f0b-b04d-cff3dacb700b*/
 }
 
   
@@ -228,7 +229,7 @@ input{
 
 
 /* ikke slett den under*/
-/*DEN HER HAR IKKE ID I HTML, MEN PÅVIRKER FORTSATT SIDEN! HOW?!*/
+/*Brukt i header*/
 #search-bar{
     border-left: 5px solid #000;
 }
