@@ -1,0 +1,476 @@
+/* Ting jeg bruker for alle 3 sidene*/
+
+/* Jeg har skrevet under hva jeg ikke burde slette fordi
+jeg ønsker ikke å ha med unødvendig elementer*/
+
+
+/* ikke slett den under*/
+/* Den her fjerner mellomrommet mellom de forskjellige seksjonene på hele siden */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ikke slett den under*/
+/* Den her viser hvordan teksten i body ser ut */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+/* ikke slett den under*/
+/* Den her gir viser deg layout*/
+   #grid-container {
+       display: grid;
+       grid-template-areas: "header" "main" "footer";
+   }
+
+/* ikke slett den under*/
+/* Den her holder header specs: farge, størrelse*/
+   header {
+       font-size: 1rem;
+       font-weight: 600;
+       grid-area: header;
+       color: #000;
+   }
+
+   /* ikke slett den under*/
+   /* den her inneholder specs for header banner: farge, størrelse*/
+    #banner{
+    background-color: #000;
+    color: #efefef;
+    margin: 0;
+    font-size: large;
+    }
+
+/* ikke slett den under*/
+/* Den her holder header nav specs: farge, layout, størrelse*/
+   header nav {
+       display: flex;
+       width: 100%;
+       justify-content: space-between;
+       background-color: #CDC8C8;
+       border:0.5px solid #000000;
+   }
+  
+   /* ikke slett den under*/
+   /* De 4 classene under gjør sånn at link fargen er sort og ikke blå/lilla*/
+   .Women{
+    color: #090909;
+   }
+
+   .Men{
+    color: #000;
+   }
+
+   .Kids{
+    color: #000;
+   }
+
+   .fa-briefcase{
+    color: #000;
+   }
+
+   /* ikke slett den under*/
+   /* Den her er for navigasjon-2 under header, og specs til den: layou, farge, størrelse*/
+   #nav2{
+    border:1px solid #000000;
+    display: flex;
+    margin: 0;
+    column-span: all;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    justify-content: space-between;
+    -ms-flex-align: center;
+   }
+
+   /* ikke slett den under*/
+   .under-menu {
+    display: none;
+    margin: 0;
+    justify-content: space-between;
+    border:0.5px solid #000000;
+}
+
+
+
+
+
+
+
+/*Produktside*/
+ 
+/*Den 3 feltene under er for text seksjonen over filter sekjson specs: layout, størrelse, farge*/
+ #text-1{
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    text-align: left;
+ }
+
+   #text-2{
+    text-align: left;
+   }
+
+   #text-3{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    text-align: left;
+   }
+
+/*Den her er for filter sekjson specs: layout, størrelse, farge*/
+#filt{
+    display: flex;
+    margin: 0;
+    column-span: all;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    justify-content: space-between;
+    -ms-flex-align: center;
+   }
+
+   /*Den her er for filter sekjson specs: plassering, layou, dekorasjon*/
+.filter-menu {
+    display: none;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+
+/*De 4 under her er for hjerte iconene for hvert produkt, specs: størrelse, plassering, layout */
+.new-hart1{
+    font-size:170%;
+    text-align: right;
+    margin: 2rem;
+}
+
+.new-hart2{
+    font-size:170%;
+    text-align: right;
+    margin: 2.6rem;
+}
+
+.new-hart3{
+    font-size:170%;
+    text-align: right;
+    margin: 2.6rem;
+}
+
+.new-hart4{
+    font-size:170%;
+    text-align: right;
+    margin: 1.4rem;
+}
+
+ /* De 4 id'ene under er for de 4 produktene, specs: layout*/
+
+   #Gucci{
+    padding: 0;
+    margin: 0;
+   }
+
+   #Off-1{
+    padding: 0;
+    margin: 0;
+   }
+
+   #versace{
+    padding: 0;
+    margin: 0;
+   }
+
+   #Off-2{
+    padding: 0;
+    margin: 0;
+   }
+
+   .filter-btn {
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #CDC8C8;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    font-weight: 100;
+    margin: 0;
+    border: 0.5px solid #000;
+    /*brukte OpenAI (ChatGPT) for å finne ut hvilken element var til skygger*/
+    box-shadow: 4px 4px 4px #3f3f3f;
+}
+
+  
+
+  
+
+
+
+
+
+
+
+/* ikke slett den under*/
+/*Den her er for fjerne border så siden ser litt bedre ut*/
+input{
+    border: none;
+}
+
+
+
+
+
+
+/* ikke slett den under*/
+/*DEN HER HAR IKKE ID I HTML, MEN PÅVIRKER FORTSATT SIDEN! HOW?!*/
+#search-bar{
+    border-left: 5px solid #000;
+}
+
+
+
+
+
+
+/* ikke slett den under*/
+/*Den her er for header specs: layout, størrelse, plassering*/
+   #ham{
+    display: flex;
+    margin: 1rem;
+    column-span: all;
+    list-style: none;
+    text-decoration: none;
+   }
+
+
+/* ikke slett den under*/
+/*Den her er for header specs: layout, størrelse, plassering*/
+   header nav div {
+       display: flex;
+       gap: 1rem;
+       margin: 1rem;
+   }
+
+   /*Jeg skrev inn width 100% for å få logoen til midten av header*/
+   /* kan kanskje slette den*/
+   /*Den her er for header specs: layout, størrelse, plassering*/
+   header nav a{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+   }
+
+/* ikke slett den under*/
+/*Den her er for header specs: layout, farge, font, plassering*/
+   #logo{
+        color: #090909;
+       text-decoration: none;
+       margin: 0.5rem;
+       padding: 0;
+       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       text-align: center;
+   }
+
+   /* ikke slett den under*/
+   /*Den her er for header specs: layout*/
+   .navbar {
+       display: none;
+       margin: 1rem;
+       
+
+   }
+
+   /* ikke slett den under*/
+/*Den her er for header specs: layout, størrelse, farge, plassering*/
+   .responsive {
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       background-color: #CDC8C8;
+       margin: 0;
+       padding: 0;
+       top: 40px;
+       width: 100%;
+       list-style: none;
+
+   }
+ 
+   /* ikke slett den under*/
+   /*Den her er for main for alle 3 sidene. specs: layout, størrelse, plassering*/
+   .black-btn {
+       display: inline-block;
+       padding: 1rem;
+       text-decoration: none;
+       text-align: center;
+       background-color: #CDC8C8;
+       color: rgb(0, 0, 0);
+       border-radius: 5px;
+       font-weight: 400;
+       margin: 1rem;
+       border: 0.5px solid #000
+   }
+
+
+
+
+   
+  
+
+   /* ikke slett den under*/
+   /*De 6 feltene under er her for main for alle 3 sidene. specs: layout, størrelse, farge, plassering*/
+   main section{
+    text-align: center;
+   }
+
+   /* ikke slett den under*/
+   h2{
+    margin: 1rem;
+    text-align: center;
+   }
+
+
+   /* kan kanskje slette den under*/
+   main section section p{
+    margin: 2rem;
+    text-align: center;
+   }
+
+   /* ikke slett den under*/
+   main {
+       grid-area: main;
+   }
+
+   /* ikke slett den under*/
+   main section img {
+       width: 100%;
+   }
+
+
+   /* ikke slett den under*/
+   footer {
+       grid-area: footer;
+       color: #000000;
+       border-top: 0.5px solid #000;
+   }   
+
+
+
+
+
+
+
+
+   /* ikke slett den under*/
+   /*De 3 feltene under er her for main for alle 3 sidene. specs: layout, størrelse, farge, plassering*/
+   #services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #efefef;
+    padding: 1rem;
+    text-align:center;
+    justify-content: space-around;
+    -ms-flex-direction: auto;
+    }
+
+    /* ikke slett den under*/
+   #services h2{
+    width: 100%;
+    text-align: center;
+   }
+
+   /* ikke slett den under*/
+   #services article{
+    max-width: 300px;
+    width: 100;
+    min-width: 200px;
+   }
+
+
+
+
+
+
+
+
+/*Her er det media queries for alle sidene specs: layout, størrelse, plassering*/
+   @media only screen and (min-width:600px){
+        #grid-container{
+            grid-template-areas: "header header header" "main main main" "footer footer footer";
+        }
+
+        /* ikke slett den under*/
+        .navbar{
+           display: flex;
+           flex-direction: row;
+           gap: 1rem;
+           list-style: none;
+        }
+
+        /* ikke slett den under*/
+        .under-menu{
+           display: flex;
+           flex-direction: row;
+           gap: 1rem;
+           list-style: none;
+        }
+
+        .filter-menu{
+           display: flex;
+           flex-direction: row;
+           gap: 1rem;
+           list-style: none;
+        }
+
+        /* ikke slett den under*/
+        #ham{
+           display: none;
+        }
+
+        /* ikke slett den under*/
+        #ham2{
+           display: none;
+        }
+
+        /* ikke slett den under*/
+        .flex-section {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+        }
+
+        /* ikke slett den under*/
+        .flex-section img{
+           width: 50%;
+           order: 1;
+        }
+
+        /* ikke slett den under*/
+        .flex-section section {
+           padding: 1rem;
+           width: 40%;
+           align-self: center;
+        }
+      
+
+        /* ikke slett den under*/
+        .right img {
+           order: -1;
+        }
+
+        .frame img{
+           display: flex;
+           flex-wrap: wrap;
+           padding: 0;
+           width: 40%;
+           align-self: center;
+           order: -1;
+        }
+
+   }

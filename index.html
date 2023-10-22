@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>DesignerHaus</title>
+</head>
+<body>
+
+    <div id="grid-container">
+        <header>
+            <!--Jeg satt inn en seksjon for tilbudet over header sånn som i figma-->
+            <section id="banner">
+                <p>15% Off on all first timers!
+                    Limited time only. (have to have an account) SIGN UP HERE! </p>
+            </section>
+            <nav>
+                <i id="ham" class="fa-solid fa-bars"></i>
+                <ul class="navbar">
+                    <li><a href="produkt.html" class="Women">Women</a></li>
+                    <li><a href="produkt.html" class="Men">Men</a></li>
+                    <li><a href="produkt.html" class="Kids">Kids</a></li>
+                </ul>
+                <a href="index.html"><h1 id="logo">DesignerHaus</h1></a>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <a href="produkt-2.html"><i class="fa-solid fa-briefcase"></i></a>
+                </div>
+            </nav>
+
+            <div>
+                <i id="nav2"></i>
+                <ul class="under-menu">
+                    <li><a href="produkt.html" class="Women">New Relase!</a></li>
+                    <li><a href="produkt.html" class="Men">Sale!</a></li>
+                    <li><a href="produkt.html" class="Kids">Popular</a></li>
+                    <li><a href="produkt.html" class="Women">The Collection</a></li>
+                    <li><a href="produkt.html" class="Men">Accessories</a></li>
+                    <!--Her er linken jeg brukte for søkefelt, https://www.w3schools.com/howto/howto_css_searchbar.asp-->
+                    <li id="srh"><input type="text" placeholder="Search.."></li>
+                </ul>
+            
+            </div>
+        </header>
+        <main>
+        <!--seksjon 1-->
+            <section class="flex-section">
+                <img src="img/allshoes.png" alt="nice pic 1">
+                <!--https://gencraft.com/generate-->
+                    <section>
+                        <h2> DESIGNER SHOES FOR ALL,
+                            AND NEW THIS FALL</h2>
+                        <p> Lorem ipsum dolol consectetur adipiscing elit.
+                        Curabitur venenatis. Maecenas at est felis.
+                        Curabitur venenatis est accumsan venenatis.
+                        Mauris aliquam lacus eu egestas pulvinar. 
+                        Nunc gravida augue eget mi rutrum,
+                        in elementum nisi congue.</p>
+                        <a href="#" class="black-btn">Shop Here!</a>
+                    </section>
+            </section>
+                <!--seksjon 2-->
+            <section class="flex-section right">
+             <img src="img/ver1.png" alt="nice pic 2">
+             <!--https://gencraft.com/generate-->
+                    <section>
+                         <h2> Versake</h2>
+                        <p> The ultimate shoe for u !!</p>
+                        <a href="#" class="black-btn">Shop Here!</a>
+                    </section>
+            </section>
+        </main>
+            <footer>
+             <section id="services">
+                    <h2>Services</h2>
+                <article>
+                    <h3>Email</h3>
+                    <p> DesignerHaus@gmail.com</p>
+                </article>
+                <article>
+                    <h3>Follow Us</h3>
+                    <p>Instagram</p>
+                    <p>Facebook</p>
+                    <p>Pinterest</p>
+                </article>
+                <article>
+                    <h3>Customer Service tlf:</h3>
+                    <p>(+47) 567 43 291</p>
+                </article>
+            </section>
+
+        </footer>
+    </div>
+    <script>
+
+        let x = document.querySelector(".navbar")
+
+        document.getElementById("ham").addEventListener("click", (e) =>{
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+
+        })
+
+    </script>
+</body>
+
+
+</html>
